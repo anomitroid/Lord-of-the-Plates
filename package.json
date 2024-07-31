@@ -1,0 +1,29 @@
+{
+  "name": "restaurant-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "gh-deploy": "git push origin :gh-pages && git subtree push --prefix dist origin gh-pages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "npx": "^10.2.2",
+    "serve": "^14.2.3"
+  }
+}
